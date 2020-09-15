@@ -12,6 +12,19 @@ public class TestExercicio {
 
 	@Test
 	public void exercicio01() {
+		CupomFiscal.NOME_LOJA = "Arcos Dourados Com. de Alimentos LTDA";
+		CupomFiscal.LOGRADOURO = "Av. Projetada Leste";
+		CupomFiscal.NUMERO = 500;
+		CupomFiscal.COMPLEMENTO = "EUC F32/33/34";
+		CupomFiscal.BAIRRO = "Br. Sta Genebra";
+		CupomFiscal.MUNICIPIO = "Campinas";
+		CupomFiscal.ESTADO = "SP";
+		CupomFiscal.CEP = "13080-395";
+		CupomFiscal.TELEFONE = "(19) 3756-7408";
+		CupomFiscal.OBSERVACAO = "Loja 1317 (PDP)";
+		CupomFiscal.CNPJ = "42.591.651/0797-34";
+		CupomFiscal.INSCRICAO_ESTADUAL = "244.898.500.113";
+
 		rodarTestarOutput("Arcos Dourados Com. de Alimentos LTDA" + BREAK + 
 				"Av. Projetada Leste, 500 EUC F32/33/34" + BREAK + 
 				"Br. Sta Genebra - Campinas - SP" + BREAK + 
