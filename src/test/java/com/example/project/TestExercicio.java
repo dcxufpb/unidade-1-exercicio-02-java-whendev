@@ -47,7 +47,7 @@ public class TestExercicio {
 
 	@Test
 	public void exercicio02_Customizado() {
-		//Defina seus próprios valores para as variáveis a seguir 
+		//Defina seus proprios valores para as variaveis a seguir
 		CupomFiscal.NOME_LOJA = "LOJAS AMERICANAS S.A.";
 		CupomFiscal.LOGRADOURO = "R SACADURA CABRAL";
 		CupomFiscal.NUMERO = 102;
@@ -57,7 +57,7 @@ public class TestExercicio {
 		CupomFiscal.ESTADO = "RJ";
 		CupomFiscal.CEP = "20.221-160";
 		CupomFiscal.TELEFONE = "(21) 2206-6708";
-		CupomFiscal.OBSERVACAO = "47.11-3-02 – Comércio varejista de mercadorias em geral";
+		CupomFiscal.OBSERVACAO = "47.11-3-02 Comercio varejista de mercadorias em geral";
 		CupomFiscal.CNPJ = "33.014.556/0001-96";
 		CupomFiscal.INSCRICAO_ESTADUAL = "85.687.08-5";
 		
@@ -66,7 +66,7 @@ public class TestExercicio {
 				"R SACADURA CABRAL, 102 " + BREAK +
 				"GAMBOA - RIO DE JANEIRO - RJ" + BREAK +
 				"CEP: 20.221-160 | Tel: (21) 2206-6708" + BREAK +
-				"47.11-3-02 – Comércio varejista de mercadorias em geral" + BREAK +
+				"47.11-3-02 Comercio varejista de mercadorias em geral" + BREAK +
 				"CNPJ: 33.014.556/0001-96" + BREAK +
 				"IE: 85.687.08-5" + BREAK);
 	}
